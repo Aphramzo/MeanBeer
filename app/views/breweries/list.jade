@@ -1,4 +1,8 @@
 extends ../layouts/MEANBeer
 
 block content
+    p
+        breweryList
+    each brewery in breweryList
+        p= brewery.name
     a(href="/breweries/create") Don't see your brewery here? Add one!

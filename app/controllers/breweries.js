@@ -2,29 +2,35 @@ var mongoose = require('mongoose'),
     Brewery = mongoose.model('Brewery');
 
 exports.list = function(req, res) {
-    Brewery.find(
-        {},
+    var breweryList = Brewery.find().sort('name').exec(
         function(err, breweries) {
             if (!err){
-                console.log(breweries);
-                //process.exit();
+                res.render('breweries/list',{
+                    breweryList: breweries
+                });
             }
             else { throw err;}
 
         }
     );
-    res.render('breweries/list', {
-
-    });
 };
 
 exports.create = function(req, res) {
-    //var brewery = new Brewery(req.body);
-
-    //brewery.save();
-    //res.jsonp(brewery);
+    res.render('breweries/add', {
+        title: 'New Brewery',
+        brewery: new Brewery()
+    });
 };
 
-exports.createProcess = function(req, res) {
+exports.createProcess = function(req, res){
+    console.log('IN the process');
+    var brewery = new Brewery(req.body);
 
+    brewery.save(function(err) {
+        if (err) {
+            console.log ('Error Creating Brewery: ' + err);
+        }
+        console.log('Created Brewery!');
+    });
+    res.redirect('/breweries');
 };

@@ -1,0 +1,11 @@
+extends ../layouts/MEANBeer
+
+block content
+    form(action="create", method="post")
+        .control-group
+            label.control-label(for='name') Brewery
+            .controls
+                input#name(type='text', name="name", placeholder='brewery', value=brewery.name)
+
+        .form-actions
+            button.btn.btn-primary(type='submit') Add

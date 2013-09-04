@@ -19,7 +19,7 @@ module.exports = function(app, passport, auth) {
     var breweries = require('../app/controllers/breweries')
     app.get('/breweries', breweries.list);
     app.get('/breweries/create', breweries.create);
-    app.post('/brewery/create', breweries.createProcess);
+    app.post('/breweries/create', breweries.createProcess);
 
     //Setting the facebook oauth routes
     app.get('/auth/facebook', passport.authenticate('facebook', {
@@ -72,6 +72,6 @@ module.exports = function(app, passport, auth) {
 
     //Home route
     var index = require('../app/controllers/index');
-    app.get('/', index.render);
+    app.get('/', breweries.list);
 
 };
