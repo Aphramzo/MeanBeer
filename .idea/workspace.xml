@@ -54,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="breweries.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="breweries.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/breweries.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="48" selection-start="162" selection-end="162" vertical-scroll-proportion="0.12820514">
+            <state line="4" column="48" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,6 +76,24 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/articles.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="75" column="85" selection-start="1423" selection-end="1453" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="11" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.5280899">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="24" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,6 +151,7 @@
         <option value="$PROJECT_DIR$/app/views/breweries/list.jade" />
         <option value="$PROJECT_DIR$/config/routes.js" />
         <option value="$PROJECT_DIR$/app/controllers/breweries.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -678,13 +697,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/sass/views/articles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/views/MEANBeer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -709,13 +721,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/MEANBeer.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="36" selection-start="204" selection-end="204" vertical-scroll-proportion="0.06593407">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.76282054">
           <folding />
         </state>
       </provider>
@@ -762,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="55" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="14" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
@@ -785,7 +783,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/breweries.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="48" selection-start="162" selection-end="162" vertical-scroll-proportion="0.12820514">
+        <state line="4" column="48" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="24" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="55" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="11" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.5280899">
           <folding />
         </state>
       </provider>
